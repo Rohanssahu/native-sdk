@@ -10,8 +10,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@livekit/react-native": "^1.4.3",
+    "@livekit/react-native-webrtc": "^114.1.6",
+    "buffer": "^6.0.3",
+    "eventemitter3": "^5.0.1",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "retell-client-native-sdk": "file:retell-client-native-sdk"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
